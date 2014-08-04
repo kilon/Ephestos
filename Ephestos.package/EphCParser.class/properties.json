@@ -1,0 +1,16 @@
+{
+	"category" : "Ephestos",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"badMessage",
+		"pythonStringClass" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pythonString",
+		"referencedString" ],
+	"name" : "EphCParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

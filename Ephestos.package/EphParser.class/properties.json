@@ -1,0 +1,14 @@
+{
+	"category" : "Ephestos",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"badMessage" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "EphParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Ephestos-Object",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "BPYObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

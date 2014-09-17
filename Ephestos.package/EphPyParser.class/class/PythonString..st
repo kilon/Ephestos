@@ -1,3 +1,3 @@
 as yet unclassified
-PythonStringClass: aValue
+PythonString: aValue
 PythonString := aValue

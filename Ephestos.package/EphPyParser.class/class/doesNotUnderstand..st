@@ -25,9 +25,9 @@ parts do:[:part||index|
 	
 	(index < parts size) ifTrue: [  
 		
-	EphCParser parseDictIndexPart: part fromCollection: parts .	
-     EphCParser parseValuePart: part fromCollection: parts .
-	EphCParser parserMethodCallPart: part fromCollections: parts.
+	EphPyParser parseDictIndexPart: part fromCollection: parts .	
+     EphPyParser parseValuePart: part fromCollection: parts .
+	EphPyParser parserMethodCallPart: part fromCollections: parts.
 	
 	]].
 ((parts size) = 1) ifTrue: [|part| part:= (parts at: 1) asString. (part matchesRegex: unaryRegex) ifTrue:[ 

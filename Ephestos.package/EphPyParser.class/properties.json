@@ -3,11 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"badMessage" ],
+		"badMessage",
+		"pythonStringClass" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "EphParser",
+		"pythonString",
+		"referencedString" ],
+	"name" : "EphPyParser",
 	"pools" : [
 		 ],
 	"super" : "Object",

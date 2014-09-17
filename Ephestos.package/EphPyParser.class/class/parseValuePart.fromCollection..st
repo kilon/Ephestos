@@ -10,4 +10,4 @@ valueRegex := '',$' asString ,'\s*=.+', $' asString,''.
 			valueString := (parts at: (index + 1)).
 			valueString := valueString copyWithRegex: (($' asString),'+')  matchesReplacedWith:''. 
 			newpart := part copyWithRegex: '\:' matchesReplacedWith:('' ,valueString ) . 
-			"parts at: index put: newpart ".  pythonStringClass = '' ifFalse:[pythonStringClass := pythonStringClass ,'.'] .pythonStringClass := pythonStringClass ,newpart.]].
+			"parts at: index put: newpart ".  PythonString = '' ifFalse:[PythonString := PythonString ,'.'] .PythonString := PythonString ,newpart.]].

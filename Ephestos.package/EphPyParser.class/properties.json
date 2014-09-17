@@ -3,8 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"badMessage",
-		"pythonStringClass" ],
+		"PythonString",
+		"badMessage" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"pythonString",

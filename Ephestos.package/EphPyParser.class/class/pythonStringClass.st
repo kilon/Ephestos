@@ -1,3 +1,3 @@
 as yet unclassified
-pythonStringClass
-	^ pythonStringClass 
+PythonStringClass
+	^ PythonString 

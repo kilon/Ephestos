@@ -10,4 +10,4 @@ parseDictIndexPart: part fromCollection: parts
 			dictIndexString := (parts at: (index + 1)).
 			dictIndexString := dictIndexString copyWithRegex: (($' asString),'+')  matchesReplacedWith:''. 
 			newpart := part copyWithRegex: '\:' matchesReplacedWith:('' ,dictIndexString,'' ) . 
-			"parts at: index put: newpart" .  pythonStringClass = '' ifFalse:[pythonStringClass := pythonStringClass ,'.'] .pythonStringClass := pythonStringClass ,newpart]].
+			"parts at: index put: newpart" .  PythonString = '' ifFalse:[PythonString := PythonString ,'.'] .PythonString := PythonString ,newpart]].

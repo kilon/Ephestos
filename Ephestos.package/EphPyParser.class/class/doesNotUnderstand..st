@@ -5,7 +5,7 @@ doesNotUnderstand: aMessage
 valueRegex fullRegex parts message
 methodcallRegex accessObjectRegex unaryRegex|
 
-pythonStringClass ifNil: [ pythonStringClass :='' ].
+PythonString ifNil: [ PythonString :='' ].
 message := aMessage asString.
 
 messageRegex :='\w+\:'.
@@ -32,8 +32,8 @@ parts do:[:part||index|
 	]].
 ((parts size) = 1) ifTrue: [|part| part:= (parts at: 1) asString. (part matchesRegex: unaryRegex) ifTrue:[ 
 
-		(pythonStringClass = '') ifTrue: [ pythonStringClass := part]
-		                            ifFalse: [ pythonStringClass := pythonStringClass,'.',part ]]].
+		(PythonString = '') ifTrue: [ PythonString := part]
+		                            ifFalse: [ PythonString := PythonString,'.',part ]]].
 
 
 badMessage :=  aMessage.

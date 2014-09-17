@@ -11,4 +11,4 @@ methodcallRegex := '',$' asString ,'\s*\(.*\)\s*', $' asString,''.
 			methodcallString := (parts at: (index + 1)).
 			methodcallString := methodcallString  copyWithRegex: (($' asString),'+')  matchesReplacedWith:''. 
 			newpart := part copyWithRegex: '\:' matchesReplacedWith:('' ,methodcallString ) . 
-			"parts at: index put: newpart ".  pythonStringClass = '' ifFalse:[pythonStringClass := pythonStringClass ,'.'] . pythonStringClass := pythonStringClass ,newpart.]].
+			"parts at: index put: newpart ".  PythonString = '' ifFalse:[PythonString := PythonString ,'.'] . PythonString := PythonString ,newpart.]].

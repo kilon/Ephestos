@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfEphestos",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfEphestos",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

@@ -4,6 +4,7 @@ parse: aString
 |pyAtom result|
 pyAtom := ((((PythonParser2 parse: aString) statements at: 1) stmts at: 1) tests at: 1) atom.
 (pyAtom lbrackToken isNotNil ) ifTrue: [result := self pylistToOrderedCollection:  pyAtom].
+(pyAtom lparenToken isNotNil ) ifTrue: [result := self pytupleToOrderedCollection:  pyAtom].
 
 ^result
 	

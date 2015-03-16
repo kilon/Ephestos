@@ -1,4 +1,5 @@
-(name 'Ephestos-kilonAlios.14' message 'implement parsing for colors' id 'cffb2e62-df66-4076-aa1a-f5c6b8e49189' date '3 March 2015' time '8:29:25.774422 pm' author 'kilonAlios' ancestors ((name 'Ephestos-kilon.13' message 'add support for strings nested inside lists and tuples
+(name 'Ephestos-kilonAlios.15' message 'add Parser class for Blender Colors' id '56e421bb-fc97-4d48-abcb-8be0ccf33597' date '16 March 2015' time '8:49:10.927228 pm' author 'kilonAlios' ancestors ((name 'Ephestos-kilon.14' message 'implement parsing for colors
+' id 'd8e0bd94-0353-57e8-b956-e3e6f2921269' date '3 March 2015' time '8:29:26 pm' author 'kilon' ancestors ((name 'Ephestos-kilon.13' message 'add support for strings nested inside lists and tuples
 ' id '70a9cdf7-5830-5f94-827d-109c81af036e' date '3 March 2015' time '7:50:04 pm' author 'kilon' ancestors ((name 'Ephestos-kilon.12' message 'implement support for parsing nested lists and tuples.
 ' id 'dcc5d445-f934-5ff7-ac12-28aa203a675e' date '3 March 2015' time '5:00:27 pm' author 'kilon' ancestors ((name 'Ephestos-kilon.11' message 'implement parsing of tuples
 ' id '5552bdc9-4ea2-5dce-b4fb-8189b044c1af' date '3 March 2015' time '4:37:55 pm' author 'kilon' ancestors ((name 'Ephestos-kilon.10' message 'rename to orderedCollection
@@ -11,4 +12,4 @@
 ' id 'e41af6ea-64e0-585d-a998-372dea3bdd34' date '17 September 2014' time '3:20:58 pm' author 'kilon' ancestors ((name 'Ephestos-kilon.3' message 'add Cube
 ' id 'a8dd9cee-0344-599e-9ffd-8d7ec2899d54' date '3 September 2014' time '9:39:56 pm' author 'kilon' ancestors ((name 'Ephestos-kilon.2' message 'hello
 ' id 'd2843a48-bca1-51db-9edb-4bb184cf6088' date '4 August 2014' time '4:34:19 pm' author 'kilon' ancestors ((name 'Ephestos-kilon.1' message 'first commit to git
-' id '4ddc5ee7-0a9c-5190-9b30-70ce692fa8e0' date '4 August 2014' time '4:19:30 pm' author 'kilon' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())
+' id '4ddc5ee7-0a9c-5190-9b30-70ce692fa8e0' date '4 August 2014' time '4:19:30 pm' author 'kilon' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())

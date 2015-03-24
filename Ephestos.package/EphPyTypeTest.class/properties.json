@@ -1,5 +1,5 @@
 {
-	"category" : "Ephestos-Type",
+	"category" : "Ephestos-Test",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "EphBlColorType",
+	"name" : "EphPyTypeTest",
 	"pools" : [
 		 ],
-	"super" : "EphPyTypeParser",
+	"super" : "TestCase",
 	"type" : "normal" }

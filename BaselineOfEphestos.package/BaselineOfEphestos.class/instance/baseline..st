@@ -3,8 +3,5 @@ baseline: spec
     <baseline>
     spec 
       for: #pharo
-      do: [
-        spec package: 'Ephestos' with: [Metacello new
-    baseline: 'SmaCC';
-    repository: 'github://ThierryGoubier/SmaCC';
-    load] ].
+      do: [spec baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ].
+spec package: 'Ephestos' with: [ spec requires: #('SmaCC') ] ].

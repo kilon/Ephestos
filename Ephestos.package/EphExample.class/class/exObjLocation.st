@@ -1,5 +1,6 @@
 as yet unclassified
 exObjLocation
+<example>
 
 "change Cube's direction"
 

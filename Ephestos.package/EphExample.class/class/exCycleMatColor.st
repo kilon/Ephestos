@@ -1,7 +1,7 @@
 as yet unclassified
 exCycleMatColor
 "Lets cicle through all colors of Diffuse color of the material"
-
+<example>
 |matColorRed matColorGreen matColorBlue |
 
 matColorRed := 0.0.

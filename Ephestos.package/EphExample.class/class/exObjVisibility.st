@@ -1,5 +1,6 @@
 as yet unclassified
 exObjVisibility
+<example>
 
 "Hide the Cube"
 

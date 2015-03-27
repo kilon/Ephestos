@@ -5,3 +5,6 @@ exMatColor
 
 Ephestos sendMessage: 'bpy.data.materials["Material"].diffuse_color = (1.0 , 0.0 , 0.0)'.
 
+"same action using pharo syntax"
+
+EphPyParser bpy data materials:'["Material"]'; diffuse_color:'=(1.0 , 0.0 , 0.0)';e.

@@ -5,3 +5,7 @@ exObjColor
 
 Ephestos sendMessage: 'bpy.data.objects["Cube"].color = (0.0,0.0,0.0,1.0) '.
 
+"same action using pharo syntax"
+
+EphPyParser  bpy data objects:'["Cube"]';color:'=(0.0,0.0,0.0,1.0) '.
+

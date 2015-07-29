@@ -1,5 +1,5 @@
 as yet unclassified
-exObjColor
+exampleObjColor
 <example>
 	"Set Object Cube color. Make sure that there is an object named Cube in Blender or else this wont work"
 

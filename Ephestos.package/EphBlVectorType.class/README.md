@@ -1,0 +1,1 @@
+Class to parse Blender Vector types to Ordered collections

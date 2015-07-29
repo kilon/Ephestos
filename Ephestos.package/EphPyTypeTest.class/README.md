@@ -1,0 +1,1 @@
+A set of tests to test that Blender types covert properly to approriate Pharo objects. 

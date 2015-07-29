@@ -1,5 +1,5 @@
 as yet unclassified
-exObjDelete
+exampleObjDelete
 <example>
 	"Delet the selected object"
 

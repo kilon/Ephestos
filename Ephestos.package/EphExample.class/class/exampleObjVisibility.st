@@ -1,5 +1,5 @@
 as yet unclassified
-exObjVisibility
+exampleObjVisibility
 <example>
 
 "Hide the Cube"

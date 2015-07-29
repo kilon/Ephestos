@@ -5,7 +5,7 @@
 	"classvars" : [
 		"PythonString",
 		"badMessage" ],
-	"commentStamp" : "",
+	"commentStamp" : "kilonAlios 7/28/2015 23:19",
 	"instvars" : [
 		"pythonString",
 		"referencedString" ],

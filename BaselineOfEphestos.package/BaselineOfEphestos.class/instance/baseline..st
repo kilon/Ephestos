@@ -1,7 +1,7 @@
 as yet unclassified
 baseline: spec
     <baseline>
-    spec 
-      for: #common
-      do: [spec baseline: 'SmaCC-Python' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ];import:'SmaCC-Python'.
-spec package: 'Ephestos' with: [ spec requires: 'SmaCC-Python' ] ].
+      spec 
+      for: #pharo
+      do: [
+        spec package: 'Ephestos' . Metacello new baseline: 'SmaCC'; repository: 'github:///ThierryGoubier/SmaCC'; load: 'SmaCC-Python'] .

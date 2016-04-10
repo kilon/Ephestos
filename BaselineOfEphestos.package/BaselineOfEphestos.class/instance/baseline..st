@@ -4,7 +4,7 @@ baseline: spec
 	spec
 		for: #pharo
 		do:
-			[ "spec
+			[ spec
 				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ];
-				import: 'SmaCC'."
-			spec package: 'Ephestos' "with: [ spec requires: #('SmaCC') ]" ]
+				import: 'SmaCC'.
+			spec package: 'Ephestos' with: [ spec requires: #('SmaCC') ] ]

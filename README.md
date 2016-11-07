@@ -39,7 +39,7 @@ Ephestos is far from finished , its still a baby , some of the ideas I have for 
 
 5) Modular image = This one I am lucky enough that is already a Pharo goal and an ongoing project called [Bootstrap](http://chercheurs.lille.inria.fr/~demarey/pmwiki/pub/pharo-bootstrap/pharo-bootstrap.zip.)
 
-6) A more powerful documentation system , [Pillar[(https://ci.inria.fr/pharo-contribution/job/EnterprisePharoBook/lastSuccessfulBuild/artifact/book-result/PillarChap/Pillar.html) could help here and the inspector / gtspotter
+6) A more powerful documentation system , [Pillar](https://ci.inria.fr/pharo-contribution/job/EnterprisePharoBook/lastSuccessfulBuild/artifact/book-result/PillarChap/Pillar.html) could help here and the inspector / gtspotter
 
 7) Auto update in the background , not a high priority goal since I will be using the Steam API that handles updates but it would be nice
 

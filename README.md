@@ -33,7 +33,7 @@ Ephestos is far from finished , its still a baby , some of the ideas I have for 
 
 2) An enhancement of visual coding experience in Pharo.  [Roassal](http://agilevisualization.com) could help here. 
 
-3) The ability to use [Emacs[(https://www.gnu.org/software/emacs/) as an alternative code editor outside the box.  Shampoo has accomplished this goal, but I have not tested it yet.
+3) The ability to use [Emacs](https://www.gnu.org/software/emacs/) as an alternative code editor outside the box.  Shampoo has accomplished this goal, but I have not tested it yet.
 
 4) Deep integration with both C++ and Python, this is more than a need since I depend both on Python and C++, this idea is the closest to materialisation and probably my most critical one
 

@@ -1,7 +1,7 @@
 # Ephestos
 ==========
 
-Ephestos is a collection of tools that tries to optimise Pharo to better fit my workflow which is about working with Unreal Game engine and Blender
+Ephestos is a collection of tools that tries to optimise Pharo to better fit my workflow which is about working with [Unreal Game Engine](https://www.unrealengine.com) and [Blender](https://www.blender.org)
 
 ## Requirements
 

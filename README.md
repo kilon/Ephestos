@@ -17,10 +17,6 @@ https://www.gitbook.com/book/kilon/ephestos/details
 
 Ephestos is far from finished , its still a baby , some of the ideas I have for it are presented bellow
 
-https://www.gitbook.com/book/kilon/ephestos/details
-
-The summary of my ideology is that there are only parts of Smalltalk I really like and not the whole thing. I have several ideas about Pharo. Whether some or all of those ideas will be proven bad or too difficult to implement , time will tell.  Some of those ideas are
-
 1) a component based environment similar to Delphi (one of the things  I loved about Delphi). Basically Objects on steroids. 
 
 2) An enhancement of visual coding experience in Pharo.  Roassal could help here. 

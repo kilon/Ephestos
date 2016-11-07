@@ -29,36 +29,38 @@ Documentation about Ephestos can be found at
 
 https://www.gitbook.com/book/kilon/ephestos/details
 
-## Future Goals
+## Goals
 
 Ephestos is far from finished , its still a baby , some of the ideas I have for it are presented bellow
 
-1) a component based environment similar to Delphi (one of the things  I loved about Delphi). Basically Objects on steroids. See the alternative free software of Delphi called [Lazarus](http://www.lazarus-ide.org) 
+-[ ] a component based environment similar to Delphi (one of the things  I loved about Delphi). Basically Objects on steroids. See the alternative free software of Delphi called [Lazarus](http://www.lazarus-ide.org) 
 
-2) An enhancement of visual coding experience in Pharo.  [Roassal](http://agilevisualization.com) could help here. 
+-[ ] An enhancement of visual coding experience in Pharo.  [Roassal](http://agilevisualization.com) could help here. 
 
-3) The ability to use [Emacs](https://www.gnu.org/software/emacs/) as an alternative code editor outside the box.  Shampoo has accomplished this goal, but I have not tested it yet.
+-[ ] The ability to use [Emacs](https://www.gnu.org/software/emacs/) as an alternative code editor outside the box.  Shampoo has accomplished this goal, but I have not tested it yet.
 
-4) Deep integration with both C++ and Python, this is more than a need since I depend both on Python and C++, this idea is the closest to materialisation and probably my most critical one
+-[ ] Deep integration with both C++ and Python, this is more than a need since I depend both on Python and C++, this idea is the closest to materialisation and probably my most critical one
 
-5) Modular image = This one I am lucky enough that is already a Pharo goal and an ongoing project called [Bootstrap](http://chercheurs.lille.inria.fr/~demarey/pmwiki/pub/pharo-bootstrap/pharo-bootstrap.zip.)
+-[ ] Modular image = This one I am lucky enough that is already a Pharo goal and an ongoing project called [Bootstrap](http://chercheurs.lille.inria.fr/~demarey/pmwiki/pub/pharo-bootstrap/pharo-bootstrap.zip.)
 
-6) A more powerful documentation system , [Pillar](https://ci.inria.fr/pharo-contribution/job/EnterprisePharoBook/lastSuccessfulBuild/artifact/book-result/PillarChap/Pillar.html) could help here and the inspector / gtspotter
+-[ ] A more powerful documentation system , [Pillar](https://ci.inria.fr/pharo-contribution/job/EnterprisePharoBook/lastSuccessfulBuild/artifact/book-result/PillarChap/Pillar.html) could help here and the inspector / gtspotter
 
-7) Auto update in the background , not a high priority goal since I will be using the Steam API that handles updates but it would be nice
+-[ ] Auto update in the background , not a high priority goal since I will be using the Steam API that handles updates but it would be nice
 
-8)  Fragmentation of the image format, this one will be a combination of fuel (or custom format) and bootstrap
+-[ ] Fragmentation of the image format, this one will be a combination of fuel (or custom format) and bootstrap
 
-9) Removal of any mid ground between Smalltalk code and Git , this is the idea I was talking early on
+-[ ] Removal of any mid ground between Smalltalk code and Git , this is the idea I was talking early on
 
-10) Integration with OS tools , like file browsers, web browsers , system utilities etc
+-[ ] Integration with OS tools , like file browsers, web browsers , system utilities etc
 
-11) Replacement of Morphic with [QT](https://www.qt.io),  I already can do this at least in part with my python bridge but for now its a low priority
+-[ ] Replacement of Morphic with [QT](https://www.qt.io),  I already can do this at least in part with my python bridge but for now its a low priority
 
-12)  Management of user analytics, that will be specific to my games and probably will utilise Steam's and Unreal's analytics for gathering information about the user , obviously with the permission of the user, most likely this will require minimum Pharo code
+-[ ] Management of user analytics, that will be specific to my games and probably will utilise Steam's and Unreal's analytics for gathering information about the user , obviously with the permission of the user, most likely this will require minimum Pharo code
 
-13) Unification of Browser, Workspace , GTInspector, GTDebugger and GtSpotter under one tool
+-[ ] Unification of Browser, Workspace , GTInspector, GTDebugger and GtSpotter under one tool
 
-14) More strict evaluation of potential errors and user mistakes 
+-[ ] More strict evaluation of potential errors and user mistakes 
+
+-[x] Python bridge
 
 and many more. All those ideas are mostly long term so it may be years if not a decade before they materialise and probably will change along the process to fit practical needs. 

@@ -13,7 +13,7 @@ You will need to have installed
 
 You also need to know how to code in [Pharo](http://pharo.org/web), [Python](https://www.python.org), [C++](http://www.cplusplus.com/doc/tutorial/) and undestand the APIs of both [Unreal Engine 4.13](https://docs.unrealengine.com/latest/INT/) and [Blender 2.78](https://www.blender.org/api/blender_python_api_2_78a_release/)
 
-Ephestos is a highly technical tool trying to bridge extremely complex platforms, this was not, is not or ever will be a begineer friendly tool. Lack of knowledge of the above will render you unable to use Ephestos correctly and is not the goal of Ephestos to teach you any of the above. This is a personal project and not made for public consumption, I decide to make it free (MIT licensed) because it may be useful to people desiring similar functionality. 
+Ephestos is a highly technical tool trying to bridge extremely complex platforms, this was not, is not or ever will be a begineer friendly tool. Lack of knowledge of the above will render you unable to use Ephestos correctly and is not the goal of Ephestos to teach you any of the above. This is a personal project and not made for public consumption, I decided to make it free (MIT licensed) because it may be useful to people desiring similar functionality. 
 
 ## Current features
 

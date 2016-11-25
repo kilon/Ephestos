@@ -2,7 +2,7 @@ baselines
 baseline: spec
 	<baseline>
 	spec
-		for: #pharo
+		for: #common
 		do: [ spec
 				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ];
 				import: 'SmaCC'.

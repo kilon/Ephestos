@@ -4,8 +4,8 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'SmaCC-Python' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ];
-				import: 'SmaCC'.
+				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ];
+				import: 'SmaCC-Python'.
 			spec
 				baseline: 'ChronosManager'
 					with: [ spec repository: 'github://kilon/ChronosManager' ];

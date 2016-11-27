@@ -9,16 +9,16 @@ baseline: spec
 			"spec
 				baseline: 'ChronosManager'
 					with: [ spec repository: 'github://kilon/ChronosManager' ];
-				import: 'ChronosManager'.
+				import: 'ChronosManager' provides: #('default').
 			spec
 				baseline: 'Octopus' with: [ spec repository: 'github://kilon/Octopus' ];
-				import: 'Octopus'.
+				import: 'Octopus'provides: #('default').
 			spec
 				baseline: 'CPP' with: [ spec repository: 'github://kilon/CPP' ];
-				import: 'CPP'.
+				import: 'CPP' provides: #('default').
 			spec
 				baseline: 'Nireas' with: [ spec repository: 'github://kilon/Nireas' ];
-				import: 'Nireas'."
+				import: 'Nireas' provides: #('default').
 			spec
 				package: 'Ephestos'
-				with: [ spec requires: #('SmaCC-Python'"'ChronosManager' 'Octopus' 'CPP' 'Nireas'") ] ]
+				with: [ spec requires: 'default' ] ]

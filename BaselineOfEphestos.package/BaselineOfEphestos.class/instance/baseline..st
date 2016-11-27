@@ -6,7 +6,7 @@ baseline: spec
 		do: [ spec
 				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ];
 				import: 'SmaCC'.
-			"spec
+			spec
 				baseline: 'ChronosManager'
 					with: [ spec repository: 'github://kilon/ChronosManager' ];
 				import: 'ChronosManager' provides: #('default').

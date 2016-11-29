@@ -6,7 +6,7 @@ baseline: spec
 		do: [ spec
 				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ];
 				import: 'SmaCC' provides: #('default').
-
+				
 			spec
 				baseline: 'ChronosManager'
 					with: [ spec repository: 'github://kilon/ChronosManager' ];
@@ -21,10 +21,8 @@ baseline: spec
 				baseline: 'Nireas' with: [ spec repository: 'github://kilon/Nireas' ];
 				import: 'Nireas' provides: #('default').
 			spec
-
 				baseline: 'Atlas' with: [ spec repository: 'github://kilon/Atlas' ];
 				import: 'Atlas' provides: #('default').
 			spec
-
 				package: 'Ephestos'
 				with: [ spec requires: 'default' ] ]

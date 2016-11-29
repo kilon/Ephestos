@@ -8,8 +8,8 @@ baseline: spec
 				preLoadDoIt: #preload:package:;
 				postLoadDoIt: #postload:package:.
 			spec
-				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC'; loads: #('SmaCC-Python')];
-				import: 'SmaCC' provides: #('default').
+				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC'];
+				import: 'SmaCC' .
 				
 			spec
 				baseline: 'ChronosManager'
@@ -29,4 +29,4 @@ baseline: spec
 				import: 'BPY' provides: #('default').
 			spec
 				package: 'Ephestos'
-				with: [ spec requires: 'default' ] ]
+				with: [ spec requires: 'default' ; requires: 'SmaCC-Python'] ]

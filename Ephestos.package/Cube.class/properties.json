@@ -1,14 +1,11 @@
 {
-	"category" : "Ephestos-Blender",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "kilonAlios 7/28/2015 23:22",
-	"instvars" : [
-		 ],
-	"name" : "Cube",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Ephestos-Blender",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Cube",
+	"type" : "normal"
+}

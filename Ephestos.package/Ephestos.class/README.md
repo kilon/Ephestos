@@ -1,1 +1,0 @@
-Ephestos is the General class dealing with managing general task concerning the socket and its connection

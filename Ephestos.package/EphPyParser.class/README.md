@@ -1,1 +1,0 @@
-EphPyParser makes it possible to use pharo syntax for executing python code without passing the python code as a string as Ephestos sendMessage: requires. The parsion uses regex

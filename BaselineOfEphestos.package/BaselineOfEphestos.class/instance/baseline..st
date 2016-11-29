@@ -1,10 +1,27 @@
-as yet unclassified
+baselines
 baseline: spec
 	<baseline>
 	spec
-		for: #pharo
-		do:
-			[ spec
+		for: #common
+		do: [ spec
 				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ];
-				import: 'SmaCC'.
-			spec package: 'Ephestos' with: [ spec requires: #('SmaCC') ] ]
+				import: 'SmaCC' provides: #('default').
+			spec
+				baseline: 'ChronosManager'
+					with: [ spec repository: 'github://kilon/ChronosManager' ];
+				import: 'ChronosManager' provides: #('default').
+			spec
+				baseline: 'Octopus' with: [ spec repository: 'github://kilon/Octopus' ];
+				import: 'Octopus'provides: #('default').
+			spec
+				baseline: 'CPP' with: [ spec repository: 'github://kilon/CPP' ];
+				import: 'CPP' provides: #('default').
+			spec
+				baseline: 'Nireas' with: [ spec repository: 'github://kilon/Nireas' ];
+				import: 'Nireas' provides: #('default').
+			spec
+				baseline: 'Atlas' with: [ spec repository: 'github://kilon/Atlas' ];
+				import: 'Atlas' provides: #('default').
+			spec
+				package: 'Ephestos'
+				with: [ spec requires: 'default' ] ]

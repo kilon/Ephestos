@@ -1,1 +1,0 @@
-This is a dummy class to represent blender types to be converted to Pharo objects, usually Ordered correction or other approriate Pharo objects

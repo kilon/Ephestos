@@ -1,14 +1,11 @@
 {
-	"category" : "Ephestos-Test",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "kilonAlios 7/28/2015 23:22",
-	"instvars" : [
-		 ],
-	"name" : "EphPyTypeTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Ephestos-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EphPyTypeTest",
+	"type" : "normal"
+}

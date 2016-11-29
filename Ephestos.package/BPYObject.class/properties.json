@@ -1,14 +1,13 @@
 {
-	"category" : "Ephestos-Object",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "kilonAlios 7/28/2015 23:43",
-	"instvars" : [
-		"name" ],
-	"name" : "BPYObject",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Ephestos-Object",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name"
+	],
+	"name" : "BPYObject",
+	"type" : "normal"
+}

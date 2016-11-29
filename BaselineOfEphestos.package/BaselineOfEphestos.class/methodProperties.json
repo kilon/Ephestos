@@ -1,6 +1,10 @@
 {
 	"instance" : {
+<<<<<<< HEAD
 		"baseline:" : "kilonAlios 11/29/2016 11:24"
+=======
+		"baseline:" : "kilonAlios 11/25/2016 14:56"
+>>>>>>> a3a4e43b007521eda6d6df560b9d608b46ce8290
 	},
 	"class" : { }
 }

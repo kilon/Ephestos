@@ -4,7 +4,7 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC' ];
+				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC'; loads: #('SmaCC-Python')];
 				import: 'SmaCC' provides: #('default').
 				
 			spec

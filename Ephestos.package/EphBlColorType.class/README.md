@@ -1,1 +1,0 @@
-Class to parse Blender color types to Pharo color

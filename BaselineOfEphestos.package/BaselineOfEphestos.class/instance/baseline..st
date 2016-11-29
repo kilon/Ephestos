@@ -24,5 +24,8 @@ baseline: spec
 				baseline: 'Atlas' with: [ spec repository: 'github://kilon/Atlas' ];
 				import: 'Atlas' provides: #('default').
 			spec
+				baseline: 'BPY' with: [ spec repository: 'github://kilon/BPY' ];
+				import: 'BPY' provides: #('default').
+			spec
 				package: 'Ephestos'
 				with: [ spec requires: 'default' ] ]

@@ -3,7 +3,11 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ spec
+		do: [ 
+			spec
+				preLoadDoIt: #preload:package:;
+				postLoadDoIt: #postload:package:.
+			spec
 				baseline: 'SmaCC' with: [ spec repository: 'github://ThierryGoubier/SmaCC'; loads: #('SmaCC-Python')];
 				import: 'SmaCC' provides: #('default').
 				

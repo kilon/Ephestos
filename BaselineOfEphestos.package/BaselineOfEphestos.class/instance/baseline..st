@@ -28,5 +28,8 @@ baseline: spec
 				baseline: 'BPY' with: [ spec repository: 'github://kilon/BPY' ];
 				import: 'BPY' provides: #('default').
 			spec
+				baseline: 'Orpheas' with: [ spec repository: 'github://kilon/Orpheas' ];
+				import: 'Orpheas' provides: #('default').
+			spec
 				package: 'Ephestos'
 				with: [ spec requires: 'default' ; requires: 'SmaCC-Python'] ]
